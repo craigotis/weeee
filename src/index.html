@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:" />
+    <title>Game</title>
+    <style>
+      html, body { margin: 0; padding: 0; height: 100%; overflow: hidden; background: #87ceeb; }
+    </style>
+    <script type="importmap">
+      { "imports": { "excalibur": "../node_modules/excalibur/build/esm/excalibur.js" } }
+    </script>
+  </head>
+  <body>
+    <script type="module" src="./game.js"></script>
+  </body>
+</html>
